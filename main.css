@@ -1,0 +1,145 @@
+#home nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 8vh;
+  background-color: whitesmoke;
+  font-family: "Quicksand", sans-serif;
+}
+#home .logo {
+  color: black;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  font-size: 20px;
+  font-weight: bold;
+}
+#home .nav-links {
+  display: flex;
+  justify-content: space-around;
+  width: 45%;
+}
+#home .nav-links li {
+  list-style: none;
+}
+#home .nav-links a {
+  color: #e2e2e2;
+  text-decoration: none;
+  letter-spacing: 3px;
+  font-weight: bold;
+  font-size: 14px;
+}
+#home .nav-links a:hover {
+  color: #000;
+}
+#home .burger {
+  display: none;
+  cursor: pointer;
+}
+#home .burger div {
+  width: 25px;
+  height: 3px;
+  background-color: black;
+  margin: 5px;
+}
+@media screen and (max-width: 768px) {
+  #home body {
+    overflow-x: hidden;
+  }
+  #home .nav-links {
+    position: absolute;
+    right: 0px;
+    height: 92vh;
+    top: 8vh;
+    background-color: steelblue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    transform: translateX(100%);
+    transition: transform 0.5s ease-in;
+  }
+  #home .nav-links li {
+    opacity: 0;
+  }
+  #home .nav-active {
+    transform: translateX(0%);
+  }
+  #home .burger {
+    display: block;
+  }
+}
+@keyframes navLinkFade {
+  from {
+    opacity: 0;
+    transform: translateX(50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0px);
+  }
+}
+#home .soccer-ball {
+  background-color: white;
+  border-radius: 100%;
+}
+#home .front-page {
+  height: 100vh;
+  text-align: center;
+  color: whitesmoke;
+  background: #396afc;
+}
+#home .front-page h1 {
+  margin: 0;
+  top: 20%;
+  position: relative;
+  font-size: 45px;
+  font-family: "Pacifico", cursive;
+  font-weight: 400;
+}
+#home .front-page h2 {
+  position: absolute;
+  font-family: "Quicksand", sans-serif;
+  width: 100%;
+  top: 50%;
+}
+#home .front-page ul {
+  position: absolute;
+  top: 70%;
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  list-style: none;
+}
+#home .about-page {
+  background-color: rgba(6, 54, 114, 0.5);
+  height: 100vh;
+}
+#home .about-page h1 {
+  margin: 0;
+}
+#home .about-page ul {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+}
+#home .projects-page {
+  background-color: rgba(123, 123, 16, 0.5);
+  height: 100vh;
+}
+#home .projects-page h1 {
+  margin: 0;
+}
+#home .contact-page {
+  background-color: bisque;
+  height: 100vh;
+}
+#home .contact-page h1 {
+  margin: 0;
+}
+#home .contact-page ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+}
+
+/*# sourceMappingURL=main.css.map */
