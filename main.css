@@ -1,3 +1,13 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+#home main {
+  position: relative;
+  overflow: hidden;
+}
 #home nav {
   display: flex;
   justify-content: space-around;
@@ -48,7 +58,7 @@
   #home .nav-links {
     position: absolute;
     right: 0px;
-    height: 92vh;
+    height: 82vh;
     top: 8vh;
     background-color: #4682b4;
     display: flex;
@@ -63,6 +73,7 @@
   }
   #home .nav-active {
     transform: translateX(0%);
+    z-index: 999;
   }
   #home .burger {
     display: block;
@@ -79,7 +90,7 @@
   }
 }
 #home .front-page {
-  height: 100vh;
+  height: 82vh;
   text-align: center;
   color: #f8f8ff;
   background: #396afc;
@@ -93,7 +104,7 @@
   font-weight: 400;
 }
 #home .front-page h2 {
-  position: absolute;
+  position: relative;
   font-family: "EB Garamond", serif;
   width: 100%;
   top: 50%;
@@ -130,15 +141,14 @@
   letter-spacing: 1px;
   font-size: 20px;
   position: relative;
-  left: 10%;
 }
 #home .about-page h4 {
   font-family: "EB Garamond", serif;
   font-size: 16px;
   letter-spacing: 1px;
   position: relative;
-  left: 20%;
   margin-bottom: 14px;
+  padding: 20px;
 }
 #home .about-page ul {
   display: flex;
@@ -162,16 +172,85 @@
   letter-spacing: 1px;
   font-size: 20px;
 }
+#home .projects-page img {
+  margin-left: 0;
+}
+#home .projects-page .container {
+  position: relative;
+  width: 100vw;
+}
+#home .projects-page .image {
+  display: block;
+  width: 100vw;
+  height: auto;
+}
+#home .projects-page .overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100vw;
+  opacity: 0;
+  transition: 0.5s ease;
+  background-color: #000000;
+}
+#home .projects-page .container:hover .overlay {
+  opacity: 1;
+}
+#home .projects-page .text {
+  color: #ffffff;
+  font-size: 20px;
+  position: absolute;
+  font-family: "EB Garamond", serif;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
 #home .contact-page {
-  background-color: #ffe4c4;
+  margin-top: 20px;
+}
+#home .contact-page form {
+  display: flex;
+  justify-content: center;
+  margin: 40px 0px;
+}
+#home .contact-page .MyButton {
+  width: 120px;
+  padding: 15px;
+  cursor: pointer;
+  font-family: "Quicksand", sans-serif;
+  font-size: 150%;
+  background: #3366cc;
+  color: #fff;
+  border: 1px solid #3366cc;
+  border-radius: 20px;
+}
+#home .contact-page .MyButton:hover {
+  color: #ffff00;
+  background: #000;
+  border: 1px solid #fff;
 }
 #home .contact-page h1 {
   margin: 0;
+  font-family: "Pacifico", cursive;
+  font-size: 70px;
+  text-align: center;
 }
 #home .contact-page ul {
   list-style: none;
   display: flex;
   justify-content: space-around;
+}
+#home .credits p {
+  font-family: "EB Garamond", serif;
+  letter-spacing: 1px;
+  margin-top: 80px;
+  margin-left: 5px;
 }
 
 /*# sourceMappingURL=main.css.map */
