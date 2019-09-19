@@ -12,7 +12,7 @@
   <title>Harry Frankel</title>
 </head>
 <body id="home">
-
+  <main>
   <nav>
     <div class="logo">
       <h4>Harry Frankel</h4>
@@ -57,9 +57,9 @@
       </ul>
       <h3>On the road to...</h3>
       <ul>
+          <li><img src="./lib/icons/mongodb.svg" height='60px' width='60px'/></li>
         <li><img src="./lib/icons/javascript.svg" height='60px' width='60px'/></li>
         <li><img src="./lib/icons/rails.svg" height='60px' width='60px'width='60px'/></li>
-        <li><img src="./lib/icons/mongodb.svg" height='60px' width='60px'/></li>
       </ul>
     </div>
   </section>
@@ -67,22 +67,29 @@
   <section class="projects-page">
     <div>
       <h1>Projects.</h1>
-      <img src="./lib/img/construction.jpg" alt="tools on table"> 
-      <h2>[stay tuned]</h2>
+      <div class="container">
+          <img src="./lib/img/construction.jpg" alt="Tools on table" class="image">
+          <div class="overlay">
+            <div class="text">Stay Tuned</div>
+          </div>
+        </div>
     </div>
   </section>
 
   <section class="contact-page">
     <h1>Contact.</h1>
-    <h2>contact button</h2>
+    <form>
+      <input class="MyButton" type="button" value="connect" onclick="window.location.href='mailto:hfranks92@gmail.com'" />
+    </form>
     <ul>
-      <li>GitHub Icon</li>
-      <li>LinkedIn Icon</li>
-      <li>CodePen Icon</li>
+      <li><a href="https://github.com/hfrankel/" target="_blank"><img src="./lib/icons/github.svg" height='60px' width='60px'/></a></li>
+      <li><a href="https://au.linkedin.com" target="_blank"><img src="./lib/icons/linkedin.svg" height='60px' width='60px'/></a></li>
+      <li><a href="https://codepen.io/hfrankel" target="_blank"><img src="./lib/icons/codepen.svg" height='60px' width='60px'/></a></li>
     </ul>
   </section>
-  <footer>
+  <footer class="credits">
     <p>icons made by Free Icons from www.freeicons.io</p>
   </footer>
+  </main>
 </body>
 </html>
