@@ -52,7 +52,7 @@
     margin: 5px;
   }
 
-//Smartphone screen navbar
+// Smartphone screen navbar
 
   @media screen and (max-width:768px) {
     
@@ -111,57 +111,101 @@
     margin: 0;
     top: 20%;
     position: relative;
-    font-size: 45px;
+    font-size: 70px;
     font-family: 'Pacifico', cursive;
     font-weight: 400;
   }
 
   .front-page h2 {
     position: absolute;
-    font-family: 'Quicksand', sans-serif;
+    font-family: 'EB Garamond', serif;
     width: 100%;
     top: 50%;
   }
 
   .front-page ul {
     display: flex;
-    justify-content: center;
     list-style: none;
+    position: relative;
+    top: 50%;
+    justify-content: space-evenly;
+
   }
 
 // Smartphone about page section
 
-  .about-page {
-    background-color: #06367280;
-    height: 100vh;
+  .about-page div img {
+    justify-content: center;
+    max-width: 90%;
+    height: auto;
+    margin: 0px 20px;
   }
 
   .about-page h1 {
-    margin: 0;
+    margin: 20px;
+    font-family: 'Pacifico', cursive;
+    font-size: 70px;
+    text-align: right;
+  }
+
+  .about-page h2 {
+    font-family: 'EB Garamond', serif;
+    letter-spacing: 1px;
+    text-align: center;
+    margin: 80px;
+    font-size: 22px;
+  }
+
+  .about-page h3 {
+    margin: 80px;
+    font-family: 'EB Garamond', serif;
+    letter-spacing: 1px;
+    font-size: 20px;
+    position: relative;
+    left: 10%;
+  }
+
+  .about-page h4 {
+    font-family: 'EB Garamond', serif;
+    font-size: 16px;
+    letter-spacing: 1px;
+    position: relative;
+    left: 20%;
+    margin-bottom: 14px;
   }
 
   .about-page ul {
     display: flex;
     justify-content: space-around;
     list-style: none;
+    margin: 0px 0px 40px 0px;
   }
 
 // Smartphone projects page section
 
-  .projects-page {
-    background-color: #7b7b1080;
-    height: 100vh;
+  .projects-page div img {
+    justify-content: center;
+    max-width: 90%;
+    height: auto;
+    margin: 0px 20px;
   }
 
   .projects-page h1 {
-    margin: 0;
+    margin-left: 40px;
+    font-family: 'Pacifico', cursive;
+    font-size: 70px;
+  }
+
+  .projects-page h2 {
+  font-family: 'EB Garamond', serif;
+  letter-spacing: 1px;
+  font-size: 20px;
   }
 
 // Smartphone contact page section
 
   .contact-page {
     background-color: #ffe4c4;
-    height: 100vh;
   }
 
   .contact-page h1 {

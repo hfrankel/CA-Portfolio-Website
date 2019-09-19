@@ -3,7 +3,7 @@
   justify-content: space-around;
   align-items: center;
   min-height: 8vh;
-  background-color: whitesmoke;
+  background-color: #f8f8ff;
   font-family: "Quicksand", sans-serif;
 }
 #home .logo {
@@ -22,14 +22,14 @@
   list-style: none;
 }
 #home .nav-links a {
-  color: #e2e2e2;
+  color: #f8f8ff;
   text-decoration: none;
   letter-spacing: 3px;
   font-weight: bold;
   font-size: 14px;
 }
 #home .nav-links a:hover {
-  color: #000;
+  color: #000000;
 }
 #home .burger {
   display: none;
@@ -38,7 +38,7 @@
 #home .burger div {
   width: 25px;
   height: 3px;
-  background-color: black;
+  background-color: #000000;
   margin: 5px;
 }
 @media screen and (max-width: 768px) {
@@ -50,7 +50,7 @@
     right: 0px;
     height: 92vh;
     top: 8vh;
-    background-color: steelblue;
+    background-color: #4682b4;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -78,60 +78,92 @@
     transform: translateX(0px);
   }
 }
-#home .soccer-ball {
-  background-color: white;
-  border-radius: 100%;
-}
 #home .front-page {
   height: 100vh;
   text-align: center;
-  color: whitesmoke;
+  color: #f8f8ff;
   background: #396afc;
 }
 #home .front-page h1 {
   margin: 0;
   top: 20%;
   position: relative;
-  font-size: 45px;
+  font-size: 70px;
   font-family: "Pacifico", cursive;
   font-weight: 400;
 }
 #home .front-page h2 {
   position: absolute;
-  font-family: "Quicksand", sans-serif;
+  font-family: "EB Garamond", serif;
   width: 100%;
   top: 50%;
 }
 #home .front-page ul {
-  position: absolute;
-  top: 70%;
   display: flex;
-  width: 100%;
-  justify-content: space-around;
   list-style: none;
+  position: relative;
+  top: 50%;
+  justify-content: space-evenly;
 }
-#home .about-page {
-  background-color: rgba(6, 54, 114, 0.5);
-  height: 100vh;
+#home .about-page div img {
+  justify-content: center;
+  max-width: 90%;
+  height: auto;
+  margin: 0px 20px;
 }
 #home .about-page h1 {
-  margin: 0;
+  margin: 20px;
+  font-family: "Pacifico", cursive;
+  font-size: 70px;
+  text-align: right;
+}
+#home .about-page h2 {
+  font-family: "EB Garamond", serif;
+  letter-spacing: 1px;
+  text-align: center;
+  margin: 80px;
+  font-size: 22px;
+}
+#home .about-page h3 {
+  margin: 80px;
+  font-family: "EB Garamond", serif;
+  letter-spacing: 1px;
+  font-size: 20px;
+  position: relative;
+  left: 10%;
+}
+#home .about-page h4 {
+  font-family: "EB Garamond", serif;
+  font-size: 16px;
+  letter-spacing: 1px;
+  position: relative;
+  left: 20%;
+  margin-bottom: 14px;
 }
 #home .about-page ul {
   display: flex;
   justify-content: space-around;
   list-style: none;
+  margin: 0px 0px 40px 0px;
 }
-#home .projects-page {
-  background-color: rgba(123, 123, 16, 0.5);
-  height: 100vh;
+#home .projects-page div img {
+  justify-content: center;
+  max-width: 90%;
+  height: auto;
+  margin: 0px 20px;
 }
 #home .projects-page h1 {
-  margin: 0;
+  margin-left: 40px;
+  font-family: "Pacifico", cursive;
+  font-size: 70px;
+}
+#home .projects-page h2 {
+  font-family: "EB Garamond", serif;
+  letter-spacing: 1px;
+  font-size: 20px;
 }
 #home .contact-page {
-  background-color: bisque;
-  height: 100vh;
+  background-color: #ffe4c4;
 }
 #home .contact-page h1 {
   margin: 0;
