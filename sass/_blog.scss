@@ -1,0 +1,38 @@
+#blog-home {
+  background: #262F34;
+  height: 82vh;
+
+  fieldset {
+    position: relative;
+    top: 18vh;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 40px;
+    border: 10px solid #615049;
+  }
+
+  legend {
+    text-align: center;
+    font-size: 70px;
+    font-family: 'Pacifico', cursive;
+    font-weight: 400;
+    color: #F34A4A;
+  }
+
+  ul {
+    list-style: none;
+    color: #F1D3BC;
+    padding: 10px;
+    line-height: 40px;
+    font-family: 'EB Garamond', serif;
+    letter-spacing: 1px;
+  }
+
+  li a:link {
+    text-decoration: none;
+  }
+  
+  li a:visited {
+    color: #F1D3BC;
+  }
+}
