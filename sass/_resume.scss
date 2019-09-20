@@ -1,7 +1,77 @@
 #resume {
+  h1 {
+    font-size: 200%;
+    margin-left: 10px;
+  }
+
   .employment-history {
     font-family: 'EB Garamond', serif;
     letter-spacing: 1px;
-    background-color: yellow;
+  }
+
+  .job-description {
+    background-color: rgba(230, 230, 230, 0.913);
+    margin-right: 10px;
+    margin-left: 30px;
+  }
+
+  .job-title {
+    display: grid;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    padding-top: 10px;
+  }
+
+  .credits-categories {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 10px;
+    margin-bottom: 20px;
+  }
+
+  .credits-list {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  .credits-list ul {
+    list-style: none;
+  }
+
+  .qualifications {
+    font-family: 'EB Garamond', serif;
+    letter-spacing: 1px;
+  }
+
+  .qualifications ul {
+    display: grid;
+    list-style: none;
+    padding: 10px;
+  }
+
+  .referees {
+    font-family: 'EB Garamond', serif;
+    letter-spacing: 1px;
+  }
+
+  .referees ul {
+    display: grid;
+    list-style: none;
+    padding: 10px;
+  }
+
+  .referee-details {
+    padding-left: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-style: italic;
+  }
+
+  .referees img {
+    margin-bottom: 20px;
   }
 }

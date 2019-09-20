@@ -23,7 +23,7 @@
   }
 
   .logo {
-    color: black;
+    color: #000000;
     text-transform: uppercase;
     letter-spacing: 5px;
     font-size: 20px;
@@ -152,6 +152,16 @@
     max-width: 90%;
     height: auto;
     margin: 0px 20px;
+  }
+
+  .about-page a {
+    color: black;
+    text-decoration: none;
+  }
+
+  .about-page a:hover {
+    color: #f8f8ff;
+    background: #e2fc39;
   }
 
   .about-page h1 {

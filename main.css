@@ -17,7 +17,7 @@
   font-family: "Quicksand", sans-serif;
 }
 #home .logo {
-  color: black;
+  color: #000000;
   text-transform: uppercase;
   letter-spacing: 5px;
   font-size: 20px;
@@ -121,6 +121,14 @@
   max-width: 90%;
   height: auto;
   margin: 0px 20px;
+}
+#home .about-page a {
+  color: black;
+  text-decoration: none;
+}
+#home .about-page a:hover {
+  color: #f8f8ff;
+  background: #e2fc39;
 }
 #home .about-page h1 {
   margin: 20px;
@@ -251,6 +259,104 @@
   letter-spacing: 1px;
   margin-top: 80px;
   margin-left: 5px;
+}
+
+#resume h1 {
+  font-size: 200%;
+  margin-left: 10px;
+}
+#resume .employment-history {
+  font-family: "EB Garamond", serif;
+  letter-spacing: 1px;
+}
+#resume .job-description {
+  background-color: rgba(230, 230, 230, 0.913);
+  margin-right: 10px;
+  margin-left: 30px;
+}
+#resume .job-title {
+  display: grid;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  margin-left: 10px;
+  padding-top: 10px;
+}
+#resume .credits-categories {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 10px;
+  margin-bottom: 20px;
+}
+#resume .credits-list {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+#resume .credits-list ul {
+  list-style: none;
+}
+#resume .qualifications {
+  font-family: "EB Garamond", serif;
+  letter-spacing: 1px;
+}
+#resume .qualifications ul {
+  display: grid;
+  list-style: none;
+  padding: 10px;
+}
+#resume .referees {
+  font-family: "EB Garamond", serif;
+  letter-spacing: 1px;
+}
+#resume .referees ul {
+  display: grid;
+  list-style: none;
+  padding: 10px;
+}
+#resume .referee-details {
+  padding-left: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-style: italic;
+}
+#resume .referees img {
+  margin-bottom: 20px;
+}
+
+#blog-home {
+  background: #262F34;
+  height: 82vh;
+}
+#blog-home fieldset {
+  position: relative;
+  top: 18vh;
+  margin-left: 10px;
+  margin-right: 10px;
+  padding: 40px;
+  border: 10px solid #615049;
+}
+#blog-home legend {
+  text-align: center;
+  font-size: 70px;
+  font-family: "Pacifico", cursive;
+  font-weight: 400;
+  color: #F34A4A;
+}
+#blog-home ul {
+  list-style: none;
+  color: #F1D3BC;
+  padding: 10px;
+  line-height: 40px;
+  font-family: "EB Garamond", serif;
+  letter-spacing: 1px;
+}
+#blog-home li a:link {
+  text-decoration: none;
+}
+#blog-home li a:visited {
+  color: #F1D3BC;
 }
 
 /*# sourceMappingURL=main.css.map */
