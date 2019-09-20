@@ -12,17 +12,17 @@
   <title>Harry Frankel</title>
 </head>
 <body id="home">
-  <main>
+  <main id="home-page">
   <nav>
     <div class="logo">
       <h4>Harry Frankel</h4>
     </div>
     <ul class="nav-links">
-      <li><a href="#">Home</a></li>
-      <li><a href="#">About</a></li>
-      <li><a href="#">Projects</a></li>
-      <li><a href="#">Contact</a></li>
-      <li><a href="#">Blog</a></li>
+      <li><a href="#home-page">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+      <li><a href="blog.html">Blog</a></li>
     </ul>
     <div class="burger">
       <div class="line1"></div>
@@ -44,9 +44,9 @@
     </ul>
   </section>
 
-  <section class="about-page">
+  <section id="about" class="about-page">
     <div>
-      <h1>Rewind.</h1>
+      <h1><a href="resume.html">Rewind.</a></h1>
       <h4>Ex film MacGuffin...</h4>
       <img src="./lib/img/film.jpg" alt="film stock">
       <h2>...current DEV hatchling learning...</h2>
@@ -64,7 +64,7 @@
     </div>
   </section>
 
-  <section class="projects-page">
+  <section id="projects" class="projects-page">
     <div>
       <h1>Projects.</h1>
       <div class="container">
@@ -76,7 +76,7 @@
     </div>
   </section>
 
-  <section class="contact-page">
+  <section id="contact" class="contact-page">
     <h1>Contact.</h1>
     <form>
       <input class="MyButton" type="button" value="connect" onclick="window.location.href='mailto:hfranks92@gmail.com'" />
