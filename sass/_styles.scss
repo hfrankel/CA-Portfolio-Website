@@ -13,7 +13,6 @@
   }
 
   nav {
-    // display: none;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -42,7 +41,7 @@
 
   .nav-links a,
   .nav-links a:active {
-    color: black;
+    color: #f8f8ff;
     text-decoration: none;
     letter-spacing: 3px;
     font-weight: bold;
@@ -123,7 +122,7 @@
 
   .front-page h1 {
     margin: 0;
-    top: 20%;
+    top: 8vh;
     position: relative;
     font-size: 70px;
     font-family: 'Pacifico', cursive;
@@ -134,7 +133,7 @@
     position: relative;
     font-family: 'EB Garamond', serif;
     width: 100%;
-    top: 50%;
+    top: 24vh;
   }
 
   .front-page ul {
