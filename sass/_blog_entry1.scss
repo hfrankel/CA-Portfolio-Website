@@ -27,12 +27,32 @@
   .article-photo {
     margin: 10px;
     width: 80%;
+    height: 80%;
   }
 
-  p {
+  .article-main-text {
+    justify-content: center;
     margin-left: 10px;
     margin-right: 10px;
     text-align: justify;
     word-spacing: -2px;
+    font-size: 1.2em
+  }
+}
+
+p {
+  margin-bottom: 20px;
+}
+
+@media screen and (min-width: 800px) {
+  #blog-1 .article-main-text {
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+
+  #blog-1 .article-photo {
+    position: relative;
+    max-width: 40%;
+    height: 30%;
   }
 }

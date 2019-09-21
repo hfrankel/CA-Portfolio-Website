@@ -89,7 +89,7 @@
   text-decoration: none;
 }
 #home .about-page a:hover {
-  color: #e2fc39;
+  color: #F34A4A;
 }
 #home .about-page h1 {
   margin: 20px;
@@ -221,14 +221,26 @@
     left: 5%;
   }
 }
-@media screen and (min-width: 800px) {
-  #home .about-page h3 {
-    left: 10%;
+@media screen and (min-width: 600px) {
+  #home .film-img {
+    display: flex;
+    justify-content: center;
+    max-width: 100%;
+    height: auto;
   }
 }
-@media screen and (min-width: 1300px) {
+@media screen and (min-width: 800px) {
   #home .about-page h3 {
     left: 15%;
+  }
+}
+@media screen and (min-width: 850px) {
+  #home .about-page h4 {
+    left: 13%;
+  }
+  #home .about-page h1 {
+    right: 13%;
+    position: relative;
   }
 }
 @media screen and (max-width: 800px) {
@@ -400,12 +412,32 @@
 #blog-1 .article-photo {
   margin: 10px;
   width: 80%;
+  height: 80%;
 }
-#blog-1 p {
+#blog-1 .article-main-text {
+  justify-content: center;
   margin-left: 10px;
   margin-right: 10px;
   text-align: justify;
   word-spacing: -2px;
+  font-size: 1.2em;
+}
+
+p {
+  margin-bottom: 20px;
+}
+
+@media screen and (min-width: 800px) {
+  #blog-1 .article-main-text {
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+
+  #blog-1 .article-photo {
+    position: relative;
+    max-width: 40%;
+    height: 30%;
+  }
 }
 
 /*# sourceMappingURL=main.css.map */

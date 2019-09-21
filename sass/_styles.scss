@@ -112,7 +112,7 @@
   }
 
   .about-page a:hover {
-    color: #e2fc39;
+    color: #F34A4A;
   }
 
   .about-page h1 {
@@ -276,18 +276,31 @@
     }
   }
 
-  @media screen and (min-width: 800px) {
-    .about-page h3 {
-      left: 10%;
+  @media screen and (min-width: 600px) {
+    .film-img {
+    display: flex;
+    justify-content: center;
+    max-width: 100%;
+    height: auto;
     }
   }
 
-  @media screen and (min-width: 1300px) {
+  @media screen and (min-width: 800px) {
     .about-page h3 {
       left: 15%;
     }
   }
 
+  @media screen and (min-width: 850px) {
+    .about-page h4 {
+      left: 13%;
+    }
+
+    .about-page h1 {
+      right: 13%;
+      position: relative;
+    }
+  }
 
   @media screen and (max-width: 800px) {
     
