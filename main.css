@@ -33,7 +33,7 @@
 }
 #home .nav-links a,
 #home .nav-links a:active {
-  color: #f8f8ff;
+  color: #000000;
   text-decoration: none;
   letter-spacing: 3px;
   font-weight: bold;
@@ -130,7 +130,8 @@
   justify-content: center;
 }
 #home .projects-page div img {
-  max-width: 100%;
+  max-width: 100vw;
+  height: auto;
 }
 #home .projects-page h1 {
   margin-left: 40px;
@@ -145,11 +146,6 @@
 #home .projects-page .container {
   position: relative;
   width: 100vw;
-}
-#home .projects-page .image {
-  display: block;
-  width: 100vw;
-  height: auto;
 }
 #home .projects-page .overlay {
   position: absolute;
@@ -240,6 +236,10 @@
   #home body {
     overflow-x: hidden;
   }
+  #home .nav-links a,
+#home .nav-links a:active {
+    color: #f8f8ff;
+  }
   #home .nav-links {
     position: absolute;
     right: 0px;
@@ -264,7 +264,7 @@
     display: block;
   }
   #home .projects-page .overlay {
-    opacity: 0;
+    opacity: 0.8;
   }
 }
 @keyframes navLinkFade {
