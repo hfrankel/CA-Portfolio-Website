@@ -33,7 +33,7 @@
 }
 #home .nav-links a,
 #home .nav-links a:active {
-  color: #f8f8ff;
+  color: #000000;
   text-decoration: none;
   letter-spacing: 3px;
   font-weight: bold;
@@ -51,44 +51,6 @@
   height: 3px;
   background-color: #000000;
   margin: 5px;
-}
-@media screen and (max-width: 768px) {
-  #home body {
-    overflow-x: hidden;
-  }
-  #home .nav-links {
-    position: absolute;
-    right: 0px;
-    height: 82vh;
-    top: 8vh;
-    background-color: #4682b4;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 100%;
-    transform: translateX(100%);
-    transition: transform 0.5s ease-in;
-  }
-  #home .nav-links li {
-    opacity: 0;
-  }
-  #home .nav-active {
-    transform: translateX(0%);
-    z-index: 999;
-  }
-  #home .burger {
-    display: block;
-  }
-}
-@keyframes navLinkFade {
-  from {
-    opacity: 0;
-    transform: translateX(50px);
-  }
-  to {
-    opacity: 1;
-    transform: translateX(0px);
-  }
 }
 #home .front-page {
   height: 82vh;
@@ -119,17 +81,15 @@
 }
 #home .about-page div img {
   justify-content: center;
-  max-width: 90%;
+  max-width: 100%;
   height: auto;
-  margin: 0px 20px;
 }
 #home .about-page a {
   color: black;
   text-decoration: none;
 }
 #home .about-page a:hover {
-  color: #f8f8ff;
-  background: #e2fc39;
+  color: #e2fc39;
 }
 #home .about-page h1 {
   margin: 20px;
@@ -165,11 +125,12 @@
   list-style: none;
   margin: 0px 0px 40px 0px;
 }
-#home .projects-page div img {
+#home .container {
+  display: flex;
   justify-content: center;
-  max-width: 90%;
-  height: auto;
-  margin: 0px 20px;
+}
+#home .projects-page div img {
+  max-width: 100%;
 }
 #home .projects-page h1 {
   margin-left: 40px;
@@ -180,9 +141,6 @@
   font-family: "EB Garamond", serif;
   letter-spacing: 1px;
   font-size: 20px;
-}
-#home .projects-page img {
-  margin-left: 0;
 }
 #home .projects-page .container {
   position: relative;
@@ -221,12 +179,12 @@
   text-align: center;
 }
 #home .contact-page {
-  margin-top: 20px;
+  margin-top: 40px;
 }
 #home .contact-page form {
   display: flex;
   justify-content: center;
-  margin: 40px 0px;
+  margin: 0px;
 }
 #home .contact-page .MyButton {
   width: 120px;
@@ -238,6 +196,8 @@
   color: #fff;
   border: 1px solid #3366cc;
   border-radius: 20px;
+  margin-top: 78px;
+  margin-bottom: 80px;
 }
 #home .contact-page .MyButton:hover {
   color: #ffff00;
@@ -245,7 +205,7 @@
   border: 1px solid #fff;
 }
 #home .contact-page h1 {
-  margin: 0;
+  margin: 0px;
   font-family: "Pacifico", cursive;
   font-size: 70px;
   text-align: center;
@@ -260,6 +220,62 @@
   letter-spacing: 1px;
   margin-top: 80px;
   margin-left: 5px;
+}
+@media screen and (min-width: 550px) {
+  #home .about-page h3 {
+    left: 5%;
+  }
+}
+@media screen and (min-width: 800px) {
+  #home .about-page h3 {
+    left: 10%;
+  }
+}
+@media screen and (min-width: 1300px) {
+  #home .about-page h3 {
+    left: 15%;
+  }
+}
+@media screen and (max-width: 800px) {
+  #home body {
+    overflow-x: hidden;
+  }
+  #home .nav-links {
+    position: absolute;
+    right: 0px;
+    height: 82vh;
+    top: 8vh;
+    background-color: #4682b4;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    transform: translateX(100%);
+    transition: transform 0.5s ease-in;
+  }
+  #home .nav-links li {
+    opacity: 0;
+  }
+  #home .nav-active {
+    transform: translateX(0%);
+    z-index: 999;
+  }
+  #home .burger {
+    display: block;
+  }
+  #home .projects-page .overlay {
+    opacity: 0.8;
+  }
+}
+@keyframes navLinkFade {
+  from {
+    opacity: 0;
+    transform: translateX(50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0px);
+  }
 }
 
 #resume h1 {
