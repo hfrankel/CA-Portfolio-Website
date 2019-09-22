@@ -55,8 +55,8 @@
 #home .front-page {
   height: 82vh;
   text-align: center;
-  color: #f8f8ff;
-  background: #396afc;
+  color: #000000;
+  background: #F34A4A;
 }
 #home .front-page h1 {
   margin: 0;
