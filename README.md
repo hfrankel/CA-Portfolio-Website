@@ -37,10 +37,18 @@ The site has multiple external links to various professional accounts including 
 
 ### <u>Sitemap</u>
 
-<img src ="./calcubot_control_flow_diagram.jpg" alt="image">
+<img src ="./resources/portfolio_sitemap.png" alt="sitemap">
 
 
 ### <u>The Site</u>
 
-INSERT SCREENSHOTS HERE
+Some of the site pages.
+
+<img src ="./resources/screenshots/home_ss.png" alt="sitemap">
+
+<img src ="./resources/screenshots/home_mob_ss.png" alt="sitemap">
+
+<img src ="./resources/screenshots/blog_list_ss.png" alt="sitemap">
+
+<img src ="./resources/screenshots/blog_entry1_ss.png" alt="sitemap">
 
