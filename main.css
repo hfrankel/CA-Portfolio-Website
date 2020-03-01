@@ -14,7 +14,7 @@
   align-items: center;
   min-height: 8vh;
   background-color: #f8f8ff;
-  font-family: "Quicksand", sans-serif;
+  font-family: 'Quicksand', sans-serif;
 }
 #home .logo {
   color: #000000;
@@ -40,7 +40,7 @@
   font-size: 14px;
 }
 #home .nav-links a:hover {
-  color: #F34A4A;
+  color: #f34a4a;
 }
 #home .burger {
   display: none;
@@ -63,12 +63,12 @@
   top: 8vh;
   position: relative;
   font-size: 70px;
-  font-family: "Pacifico", cursive;
+  font-family: 'Pacifico', cursive;
   font-weight: 400;
 }
 #home .front-page h2 {
   position: relative;
-  font-family: "EB Garamond", serif;
+  font-family: 'EB Garamond', serif;
   width: 100%;
   top: 24vh;
 }
@@ -89,16 +89,18 @@
   text-decoration: none;
 }
 #home .about-page a:hover {
-  color: #F34A4A;
+  color: #f34a4a;
 }
 #home .about-page h1 {
   margin: 20px;
-  font-family: "Pacifico", cursive;
+  margin-top: 80px;
+  margin-bottom: 80px;
+  font-family: 'Pacifico', cursive;
   font-size: 70px;
   text-align: right;
 }
 #home .about-page h2 {
-  font-family: "EB Garamond", serif;
+  font-family: 'EB Garamond', serif;
   letter-spacing: 1px;
   text-align: center;
   margin: 80px;
@@ -106,18 +108,33 @@
 }
 #home .about-page h3 {
   margin: 80px;
-  font-family: "EB Garamond", serif;
+  font-family: 'EB Garamond', serif;
   letter-spacing: 1px;
   font-size: 20px;
   position: relative;
 }
 #home .about-page h4 {
-  font-family: "EB Garamond", serif;
+  font-family: 'EB Garamond', serif;
   font-size: 16px;
   letter-spacing: 1px;
   position: relative;
   margin-bottom: 14px;
   padding: 20px;
+}
+#home .bio {
+  font-size: 16px;
+  text-align: justify;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  font-family: 'Quicksand', sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  margin-left: 0.8rem;
+  margin-right: 0.8rem;
+  line-height: 31px;
+  display: flex;
+  justify-content: center;
 }
 #home .about-page ul {
   display: flex;
@@ -134,11 +151,13 @@
 }
 #home .projects-page h1 {
   margin-left: 40px;
-  font-family: "Pacifico", cursive;
+  margin-top: 80px;
+  font-family: 'Pacifico', cursive;
   font-size: 70px;
+  margin-bottom: 80px;
 }
 #home .projects-page h2 {
-  font-family: "EB Garamond", serif;
+  font-family: 'EB Garamond', serif;
   letter-spacing: 1px;
   font-size: 20px;
 }
@@ -165,7 +184,7 @@
   color: #ffffff;
   font-size: 20px;
   position: absolute;
-  font-family: "EB Garamond", serif;
+  font-family: 'EB Garamond', serif;
   top: 50%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
@@ -185,7 +204,7 @@
   width: 120px;
   padding: 15px;
   cursor: pointer;
-  font-family: "Quicksand", sans-serif;
+  font-family: 'Quicksand', sans-serif;
   font-size: 150%;
   background: #3366cc;
   color: #fff;
@@ -200,21 +219,30 @@
   border: 1px solid #fff;
 }
 #home .contact-page h1 {
-  margin: 0px;
-  font-family: "Pacifico", cursive;
+  margin-top: 80px;
+  margin-bottom: 80px;
+  font-family: 'Pacifico', cursive;
   font-size: 70px;
   text-align: center;
 }
 #home .contact-page ul {
   list-style: none;
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
+  margin-bottom: 80px;
 }
 #home .credits p {
-  font-family: "EB Garamond", serif;
+  font-family: 'EB Garamond', serif;
   letter-spacing: 1px;
   margin-top: 80px;
   margin-left: 5px;
+}
+#home .contact-icon-github {
+  margin-right: 20px;
+  margin-left: 5px;
+}
+#home .contact-icon-linkedin {
+  margin-right: 20px;
 }
 @media screen and (min-width: 550px) {
   #home .about-page h3 {
@@ -248,7 +276,7 @@
     overflow-x: hidden;
   }
   #home .nav-links a,
-#home .nav-links a:active {
+  #home .nav-links a:active {
     color: #f8f8ff;
   }
   #home .nav-links {
@@ -294,7 +322,7 @@
   margin-left: 10px;
 }
 #resume .employment-history {
-  font-family: "EB Garamond", serif;
+  font-family: 'EB Garamond', serif;
   letter-spacing: 1px;
 }
 #resume .job-description {
@@ -325,7 +353,7 @@
   list-style: none;
 }
 #resume .qualifications {
-  font-family: "EB Garamond", serif;
+  font-family: 'EB Garamond', serif;
   letter-spacing: 1px;
 }
 #resume .qualifications ul {
@@ -334,7 +362,7 @@
   padding: 10px;
 }
 #resume .referees {
-  font-family: "EB Garamond", serif;
+  font-family: 'EB Garamond', serif;
   letter-spacing: 1px;
 }
 #resume .referees ul {
@@ -353,7 +381,7 @@
 }
 
 #blog-home {
-  background: #262F34;
+  background: #262f34;
   height: 100vh;
 }
 #blog-home fieldset {
@@ -367,28 +395,28 @@
 #blog-home legend {
   text-align: center;
   font-size: 70px;
-  font-family: "Pacifico", cursive;
+  font-family: 'Pacifico', cursive;
   font-weight: 400;
-  color: #F34A4A;
+  color: #f34a4a;
 }
 #blog-home ul {
   list-style: none;
-  color: #F1D3BC;
+  color: #f1d3bc;
   padding: 10px;
   line-height: 40px;
-  font-family: "EB Garamond", serif;
+  font-family: 'EB Garamond', serif;
   letter-spacing: 1px;
 }
 #blog-home li a:link {
   text-decoration: none;
-  color: #F1D3BC;
+  color: #f1d3bc;
 }
 #blog-home li a:visited {
-  color: #F1D3BC;
+  color: #f1d3bc;
 }
 
 #blog-1 {
-  font-family: "EB Garamond", serif;
+  font-family: 'EB Garamond', serif;
   letter-spacing: 1px;
   text-align: center;
 }
